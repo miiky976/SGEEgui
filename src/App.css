@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Colores para el tema claro */
+:root {
+    --background: #ffffff;
+    --color: #000000;
+    --time: 200ms;
+    --primary: #452d69;
+    --primaryhover: #725797;
+    --on-primary: #ffffff;
+    --success: #087f23;
+    --successhover: #4caf50;
+    --warning: #ba000d;
+    --warninghover: #f44336;
+    --link: blue;
+}
+
+/* Porfin descubri como hacer tema oscuro :) */
+@media (prefers-color-scheme: dark){
+    :root{
+        background-color: black;
+        --background: #000000;
+        --color: #ffffff;
+    }
+}
+
+body{
+    margin: 0;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background);
+    color: var(--color);
+}
+
+main{
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+:root {
+    --time: 200ms;
+    --primary: #452d69;
+    --primaryhover: #725797;
+    --on-primary: #ffffff;
+    --success: #4caf50;
+    --successhover: #087f23;
+    --warning: #f44336;
+    --warninghover: #ba000d;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}

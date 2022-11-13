@@ -1,0 +1,40 @@
+@import "../App.css";
+
+.Button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.Primary {
+    background-color: var(--primary);
+    color: white;
+    transition: var(--time);
+}
+
+.Primary:hover, .Primary:focus{
+    background-color: var(--primaryhover);
+}
+
+.Success {
+    background-color: var(--success);
+    color: white;
+    transition: var(--time);
+}
+
+.Success:hover , .Success:focus{
+    background-color: var(--successhover);
+}
+
+.Warning {
+    background-color: var(--warning);
+    color: white;
+    transition: var(--time);
+}
+
+.Warning:hover , .Warning:focus{
+    background-color: var(--warninghover);
+}

@@ -1,0 +1,29 @@
+@import "../App.css";
+
+.TextBox {
+    margin-bottom: 10px;
+    width: 100%;
+    display: grid;
+    text-align: left;
+}
+
+.TextBoxInput {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: var(--time);
+}
+
+.TextBoxInput:focus {
+    outline: none;
+    border: 2px solid grey;
+    transition: var(--time);
+}
+
+.TextBoxLabel {
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+

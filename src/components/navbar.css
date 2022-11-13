@@ -1,0 +1,17 @@
+@import "../App.css";
+
+.NavBar {
+    background-color: var(--primary);
+}
+
+.LogoText {
+    background-color: var(--primary);
+    color: white;
+    width: 10px;
+    overflow: scroll;
+}
+
+.Image {
+    background-color: var(--primary);
+    padding: 5px;
+}
