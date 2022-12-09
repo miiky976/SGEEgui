@@ -1,0 +1,24 @@
+@import "../App.css";
+
+.Title {
+    color: var(--neutral);
+}
+.Login{
+    text-align: center;
+    align-items: center;
+}
+
+.FormTitle {
+    background-color: transparent;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.FormBox {
+    padding: 50px;
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    border-radius: 20px;
+    text-align: left;
+}

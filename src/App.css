@@ -2,9 +2,11 @@
 
 /* Colores para el tema claro */
 :root {
-    --background: #ffffff;
+    --background: #ECF0F5;
+    --background2: white;
     --color: #000000;
     --time: 200ms;
+    --neutral: grey;
     --primary: #452d69;
     --primaryhover: #725797;
     --on-primary: #ffffff;

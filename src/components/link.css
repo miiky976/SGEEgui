@@ -1,6 +1,7 @@
 @import "../App.css";
 
 .Link {
+    background-color: transparent;
     color: var(--link);
     font-size: 12px;
     font-weight: 600;

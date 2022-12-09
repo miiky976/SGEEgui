@@ -1,6 +1,7 @@
 @import "../App.css";
 
 .TextBox {
+    background-color: transparent;
     margin-bottom: 10px;
     width: 100%;
     display: grid;
@@ -8,6 +9,7 @@
 }
 
 .TextBoxInput {
+    background-color: transparent;
     padding: 10px;
     border-radius: 10px;
     border: 2px solid black;
@@ -16,11 +18,12 @@
 
 .TextBoxInput:focus {
     outline: none;
-    border: 2px solid grey;
+    border: 2px solid var(--neutral);
     transition: var(--time);
 }
 
 .TextBoxLabel {
+    background-color: transparent;
     padding-bottom: 10px;
     font-size: 15px;
     font-weight: 600;

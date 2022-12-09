@@ -2,13 +2,21 @@
 
 .NavBar {
     background-color: var(--primary);
+    display: flex;
+    place-items: center;
+}
+
+.Home{
+    background-color: var(--primary);
+    display: flex;
+    place-items: center;
 }
 
 .LogoText {
     background-color: var(--primary);
     color: white;
-    width: 10px;
-    overflow: scroll;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .Image {
